@@ -1,0 +1,16 @@
+header {
+  padding-top: 15px;
+  h1 {
+    font-size: 24px;
+    font-family: 'OpenSans-SemiBold';
+  }
+  .bottom-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    .add-btn {
+      margin-right: 30px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.task-form {
+  p {
+    font-size: 20px;
+    padding-bottom: 25px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    label {
+      margin-bottom: 10px;
+    }
+    &.row {
+      flex-direction: row;
+      align-items: center;
+      label {
+        margin-bottom: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  input[type="submit"] {
+    display: block;
+    margin-left: auto;
+    width: 140px;
+    height: 40px;
+    background-color: rgba(22, 155, 213, 1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
